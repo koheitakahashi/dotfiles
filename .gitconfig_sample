@@ -1,0 +1,12 @@
+[user]
+	name = koheitakahashi
+	email = 426koohei@gmail.com
+[core]
+	editor = vim
+[pull]
+rebase = false
+[ghq]
+root= ~/dev
+[init]
+defaultBranch = main
+

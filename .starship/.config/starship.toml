@@ -1,0 +1,16 @@
+# シェルプロンプトの間に空行を追加
+add_newline = true
+scan_timeout = 1000
+
+[directory]
+truncation_length = 100
+truncate_to_repo = false
+
+# packageモジュールを無効にし、プロンプトから完全に隠す
+[package]
+disabled = true
+
+# awsモジュールを非表示
+[aws]
+format = ""
+
