@@ -32,3 +32,4 @@ end
 # --------
 eval "$(starship init fish)"
 eval (gh completion -s fish| source)
+status --is-interactive; and source (anyenv init -|psub)
