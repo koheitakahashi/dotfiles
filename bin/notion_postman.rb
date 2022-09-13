@@ -7,8 +7,11 @@ require 'date'
 gemfile do
   source 'https://rubygems.org'
   gem 'notion-ruby-client'
+  gem 'dotenv'
 end
 
+require 'dotenv'
+Dotenv.load('bin/.env')
 module NotionConstants
   PROPERTIES = {
     "title": {
