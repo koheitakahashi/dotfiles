@@ -27,8 +27,8 @@ Temporary Items
 
 .vscode
 
-vendor/bundle
-vendor
+vendor/
+vendor/**/*
 .bundle
 
 tmp/memo
