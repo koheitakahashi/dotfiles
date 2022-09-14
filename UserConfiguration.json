@@ -5953,7 +5953,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "scancode": 44
+                  "scancode": 40
                 },
                 {
                   "keyActionType": "keystroke",
@@ -5973,7 +5973,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "scancode": 145
+                  "scancode": 144
                 },
                 {
                   "keyActionType": "switchLayer",
@@ -6120,7 +6120,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "scancode": 144
+                  "scancode": 136
                 },
                 {
                   "keyActionType": "switchLayer",
@@ -6145,7 +6145,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "scancode": 40
+                  "scancode": 44
                 },
                 null
               ]
