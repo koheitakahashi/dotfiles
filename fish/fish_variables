@@ -16,6 +16,7 @@ SETUVAR _fish_abbr_b:bundle
 SETUVAR _fish_abbr_be:bundle\x20exec
 SETUVAR _fish_abbr_c:code
 SETUVAR _fish_abbr_cat:bat
+SETUVAR _fish_abbr_cdic:cd\x20/Users/koheitakahashi/Library/Mobile\x5c\x20Documents/com\x7eapple\x7eCloudDocs
 SETUVAR _fish_abbr_cm:code\x20\x2e/tmp/memo\x2emd
 SETUVAR _fish_abbr_dcc:docker\x20compose
 SETUVAR _fish_abbr_diff:difft
