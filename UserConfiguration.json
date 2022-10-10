@@ -6154,17 +6154,17 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
+                  "scancode": 41
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
                   "scancode": 42
                 },
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "scancode": 47
-                },
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 48
+                  "scancode": 76
                 },
                 {
                   "keyActionType": "mouse",
@@ -6242,31 +6242,21 @@
                   "type": "basic",
                   "scancode": 82
                 },
+                null,
+                null,
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "scancode": 77
+                  "scancode": 47,
+                  "modifierMask": 10
                 },
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "scancode": 76
+                  "scancode": 48,
+                  "modifierMask": 10
                 },
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 70
-                },
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 71
-                },
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 72
-                },
+                null,
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
@@ -6287,11 +6277,7 @@
                   "type": "basic",
                   "scancode": 79
                 },
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 73
-                },
+                null,
                 null,
                 null,
                 {
@@ -6436,23 +6422,9 @@
             {
               "id": 2,
               "keyActions": [
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 76
-                },
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 47,
-                  "modifierMask": 10
-                },
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 48,
-                  "modifierMask": 10
-                },
+                null,
+                null,
+                null,
                 {
                   "keyActionType": "mouse",
                   "mouseAction": "leftClick"
