@@ -4,14 +4,14 @@
   "userConfigPatchVersion": 0,
   "deviceName": "My UHK",
   "doubleTapSwitchLayerTimeout": 250,
-  "iconsAndLayerTextsBrightness": 255,
-  "alphanumericSegmentsBrightness": 255,
-  "keyBacklightBrightness": 255,
+  "iconsAndLayerTextsBrightness": 0,
+  "alphanumericSegmentsBrightness": 0,
+  "keyBacklightBrightness": 0,
   "mouseMoveInitialSpeed": 4,
-  "mouseMoveAcceleration": 68,
+  "mouseMoveAcceleration": 1,
   "mouseMoveDeceleratedSpeed": 8,
-  "mouseMoveBaseSpeed": 32,
-  "mouseMoveAcceleratedSpeed": 64,
+  "mouseMoveBaseSpeed": 1,
+  "mouseMoveAcceleratedSpeed": 1,
   "mouseScrollInitialSpeed": 1,
   "mouseScrollAcceleration": 31,
   "mouseScrollDeceleratedSpeed": 10,
@@ -5840,9 +5840,9 @@
                   "scancode": 46
                 },
                 {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 76
+                  "keyActionType": "switchLayer",
+                  "layer": "mouse",
+                  "switchLayerMode": "hold"
                 },
                 {
                   "keyActionType": "keystroke",
@@ -6293,11 +6293,7 @@
                 null,
                 null,
                 null,
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 101
-                },
+                null,
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
@@ -6306,7 +6302,11 @@
                 null,
                 null,
                 null,
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "modifierMask": 128
+                },
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
@@ -6376,11 +6376,7 @@
                 null,
                 null,
                 null,
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "modifierMask": 4
-                },
+                null,
                 null,
                 null,
                 {
@@ -6413,7 +6409,11 @@
                   "type": "basic",
                   "modifierMask": 4
                 },
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "modifierMask": 8
+                },
                 null,
                 null,
                 null
@@ -6526,7 +6526,11 @@
                   "scancode": 44
                 },
                 null,
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "modifierMask": 128
+                },
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
@@ -6609,7 +6613,11 @@
                   "type": "basic",
                   "modifierMask": 4
                 },
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "modifierMask": 8
+                },
                 null,
                 {
                   "keyActionType": "keystroke",
@@ -6677,7 +6685,11 @@
                 null,
                 null,
                 null,
-                null,
+                {
+                  "keyActionType": "switchLayer",
+                  "layer": "mouse",
+                  "switchLayerMode": "hold"
+                },
                 {
                   "keyActionType": "mouse",
                   "mouseAction": "scrollLeft"
@@ -6736,7 +6748,11 @@
                   "keyActionType": "mouse",
                   "mouseAction": "rightClick"
                 },
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "modifierMask": 128
+                },
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
@@ -6809,7 +6825,11 @@
                   "type": "basic",
                   "modifierMask": 4
                 },
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "modifierMask": 8
+                },
                 null,
                 {
                   "keyActionType": "mouse",
