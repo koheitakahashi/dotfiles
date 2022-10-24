@@ -6,6 +6,8 @@
 	<false/>
 	<key>AllowClipboardAccess</key>
 	<true/>
+	<key>CloseBookmarksWindowAfterOpening</key>
+	<true/>
 	<key>Command</key>
 	<string></string>
 	<key>CopyLastNewline</key>
@@ -236,40 +238,7 @@
 			<key>Text</key>
 			<string></string>
 		</dict>
-		<key>0x68-0x40000-0x4</key>
-		<dict>
-			<key>Action</key>
-			<integer>2</integer>
-			<key>Label</key>
-			<string></string>
-			<key>Text</key>
-			<string></string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<key>0x68-0xc0000-0x4</key>
-		<dict>
-			<key>Action</key>
-			<integer>28</integer>
-			<key>Label</key>
-			<string></string>
-			<key>Text</key>
-			<string>6B4D7922-44B8-4F61-B0BF-93CB77E7B07A</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<key>0x6c-0x40000-0x25</key>
-		<dict>
-			<key>Action</key>
-			<integer>0</integer>
-			<key>Label</key>
-			<string></string>
-			<key>Text</key>
-			<string></string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<key>0x76-0xc0000-0x9</key>
+		<key>0x5c-0x100000-0x2a</key>
 		<dict>
 			<key>Action</key>
 			<integer>29</integer>
@@ -298,20 +267,6 @@
 		<dict>
 			<key>Action</key>
 			<integer>6</integer>
-			<key>Text</key>
-			<string></string>
-		</dict>
-		<key>0xf702-0x320000</key>
-		<dict>
-			<key>Action</key>
-			<integer>33</integer>
-			<key>Text</key>
-			<string></string>
-		</dict>
-		<key>0xf703-0x320000</key>
-		<dict>
-			<key>Action</key>
-			<integer>34</integer>
 			<key>Text</key>
 			<string></string>
 		</dict>
@@ -1072,11 +1027,11 @@
 	<key>SoundForEsc</key>
 	<false/>
 	<key>SwitchPaneModifier</key>
-	<integer>1</integer>
-	<key>SwitchTabModifier</key>
 	<integer>4</integer>
+	<key>SwitchTabModifier</key>
+	<integer>9</integer>
 	<key>SwitchWindowModifier</key>
-	<integer>5</integer>
+	<integer>9</integer>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
 	<key>findMode_iTerm</key>
