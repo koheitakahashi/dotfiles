@@ -1,0 +1,11 @@
+# ref: https://github.com/jesseduffield/lazygit/blob/master/docs/Config.md
+
+os:
+  openCommand: 'code -rg {{filename}}'
+  editCommand: 'code'
+  editCommandTemplate: '{{editor}} --goto -- {{filename}}:{{line}}'
+keybinding:
+  commits:
+    moveDownCommit: '<left>' # move commit down one
+    moveUpCommit: '<right>' # move commit up one
+
