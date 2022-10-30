@@ -6117,14 +6117,14 @@
                   "scancode": 5
                 },
                 {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 145
-                },
-                {
                   "keyActionType": "switchLayer",
                   "layer": "mod",
                   "switchLayerMode": "hold"
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 145
                 },
                 {
                   "keyActionType": "keystroke",
@@ -6402,12 +6402,12 @@
                   "modifierMask": 3
                 },
                 null,
-                null,
                 {
                   "keyActionType": "switchLayer",
                   "layer": "mod",
                   "switchLayerMode": "hold"
                 },
+                null,
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
