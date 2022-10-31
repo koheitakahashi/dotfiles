@@ -30,6 +30,7 @@ SETUVAR _fish_abbr_gop:gh\x20repo\x20view\x20\x2dw
 SETUVAR _fish_abbr_gpl:git\x20pull
 SETUVAR _fish_abbr_gps:git\x20push
 SETUVAR _fish_abbr_gpsfw:git\x20push\x20\x2d\x2dforce\x2dwith\x2dlease
+SETUVAR _fish_abbr_gpsoh:git\x20push\x20origin\x20HEAD
 SETUVAR _fish_abbr_gst:git\x20stash
 SETUVAR _fish_abbr_gsw:git\x20switch
 SETUVAR _fish_abbr_gswc:git\x20switch\x20\x2dc
