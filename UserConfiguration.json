@@ -1,5 +1,5 @@
 {
-  "userConfigMajorVersion": 4,
+  "userConfigMajorVersion": 5,
   "userConfigMinorVersion": 0,
   "userConfigPatchVersion": 0,
   "deviceName": "My UHK",
@@ -26,6 +26,7 @@
       "description": "Colemak is based on QWERTY, but it places the most frequent letters under the strongest fingers. This is the Mac version.",
       "layers": [
         {
+          "id": "base",
           "modules": [
             {
               "id": 0,
@@ -416,6 +417,7 @@
           ]
         },
         {
+          "id": "mod",
           "modules": [
             {
               "id": 0,
@@ -744,6 +746,7 @@
           ]
         },
         {
+          "id": "fn",
           "modules": [
             {
               "id": 0,
@@ -957,6 +960,7 @@
           ]
         },
         {
+          "id": "mouse",
           "modules": [
             {
               "id": 0,
@@ -1177,6 +1181,7 @@
       "description": "Colemak is based on QWERTY, but it places the most frequent letters under the strongest fingers. This is the PC version.\n",
       "layers": [
         {
+          "id": "base",
           "modules": [
             {
               "id": 0,
@@ -1570,6 +1575,7 @@
           ]
         },
         {
+          "id": "mod",
           "modules": [
             {
               "id": 0,
@@ -1908,6 +1914,7 @@
           ]
         },
         {
+          "id": "fn",
           "modules": [
             {
               "id": 0,
@@ -2120,6 +2127,7 @@
           ]
         },
         {
+          "id": "mouse",
           "modules": [
             {
               "id": 0,
@@ -2340,6 +2348,7 @@
       "description": "The Dvorak keyboard layout was designed with the goal of maximizing typing efficiency. This is the Mac version.",
       "layers": [
         {
+          "id": "base",
           "modules": [
             {
               "id": 0,
@@ -2733,6 +2742,7 @@
           ]
         },
         {
+          "id": "mod",
           "modules": [
             {
               "id": 0,
@@ -3061,6 +3071,7 @@
           ]
         },
         {
+          "id": "fn",
           "modules": [
             {
               "id": 0,
@@ -3274,6 +3285,7 @@
           ]
         },
         {
+          "id": "mouse",
           "modules": [
             {
               "id": 0,
@@ -3494,6 +3506,7 @@
       "description": "The Dvorak keyboard layout was designed with the goal of maximizing typing efficiency. This is the PC version.",
       "layers": [
         {
+          "id": "base",
           "modules": [
             {
               "id": 0,
@@ -3887,6 +3900,7 @@
           ]
         },
         {
+          "id": "mod",
           "modules": [
             {
               "id": 0,
@@ -4225,6 +4239,7 @@
           ]
         },
         {
+          "id": "fn",
           "modules": [
             {
               "id": 0,
@@ -4437,6 +4452,7 @@
           ]
         },
         {
+          "id": "mouse",
           "modules": [
             {
               "id": 0,
@@ -4657,6 +4673,7 @@
       "description": "QWERTY is the mother of all layouts. This is the Mac version.",
       "layers": [
         {
+          "id": "base",
           "modules": [
             {
               "id": 0,
@@ -5050,6 +5067,7 @@
           ]
         },
         {
+          "id": "mod",
           "modules": [
             {
               "id": 0,
@@ -5378,6 +5396,7 @@
           ]
         },
         {
+          "id": "fn",
           "modules": [
             {
               "id": 0,
@@ -5591,6 +5610,7 @@
           ]
         },
         {
+          "id": "mouse",
           "modules": [
             {
               "id": 0,
@@ -5805,6 +5825,7 @@
       "description": "QWERTY is the mother of all layouts. This is the PC version.",
       "layers": [
         {
+          "id": "base",
           "modules": [
             {
               "id": 0,
@@ -6193,6 +6214,7 @@
           ]
         },
         {
+          "id": "mod",
           "modules": [
             {
               "id": 0,
@@ -6232,16 +6254,8 @@
                   "type": "basic",
                   "scancode": 76
                 },
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 74
-                },
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 82
-                },
+                null,
+                null,
                 null,
                 null,
                 {
@@ -6257,20 +6271,16 @@
                   "modifierMask": 10
                 },
                 null,
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 75
-                },
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 80
-                },
+                null,
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
                   "scancode": 81
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 82
                 },
                 {
                   "keyActionType": "keystroke",
@@ -6283,7 +6293,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "scancode": 78
+                  "scancode": 80
                 },
                 {
                   "keyActionType": "keystroke",
@@ -6459,6 +6469,7 @@
           ]
         },
         {
+          "id": "fn",
           "modules": [
             {
               "id": 0,
@@ -6679,6 +6690,7 @@
           ]
         },
         {
+          "id": "mouse",
           "modules": [
             {
               "id": 0,
