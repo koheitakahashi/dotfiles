@@ -26,8 +26,9 @@ SETUVAR _fish_abbr_find:fd
 SETUVAR _fish_abbr_g:git
 SETUVAR _fish_abbr_ghv:gh\x20repo\x20view\x20\x2dw
 SETUVAR _fish_abbr_glo:git\x20log\x20\x2d\x2doneline
-SETUVAR _fish_abbr_gop:gh\x20repo\x20view\x20\x2dw
+SETUVAR _fish_abbr_gop:open_github_pr
 SETUVAR _fish_abbr_gpl:git\x20pull
+SETUVAR _fish_abbr_gpro:git\x20branch\x20\x2d\x2dshow\x2dcurrent\x20\x7c\x20gh\x20pr\x20view\x20\x2d\x2dweb
 SETUVAR _fish_abbr_gps:git\x20push
 SETUVAR _fish_abbr_gpsfw:git\x20push\x20\x2d\x2dforce\x2dwith\x2dlease
 SETUVAR _fish_abbr_gpsoh:git\x20push\x20origin\x20HEAD
