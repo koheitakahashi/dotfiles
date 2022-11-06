@@ -9,6 +9,9 @@ set -gx FZF_LEGACY_KEYBINDINGS 0
 # starshipの設定ファイルのパス
 set -gx STARSHIP_CONFIG ~/.starship/.config/starship.toml
 
+# iTerm2 の shell integratin
+source ~/.iterm2_shell_integration.fish
+
 # --------
 # function
 # --------
