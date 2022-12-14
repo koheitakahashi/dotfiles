@@ -1,0 +1,3 @@
+[submodule "raycast/obsidian-note-creator"]
+	path = raycast/obsidian-note-creator
+	url = git@github.com:koheitakahashi/obsidian-note-creator.git
