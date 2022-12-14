@@ -1,4 +1,3 @@
-tap "ethereum/ethereum"
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -25,7 +24,6 @@ brew "dash", link: false
 brew "difftastic"
 brew "docker", link: false
 brew "dog"
-brew "ethereum"
 brew "exa"
 brew "fd"
 brew "ffmpeg"
@@ -67,7 +65,6 @@ brew "yarn"
 brew "heroku/brew/heroku"
 brew "jesseduffield/lazygit/lazygit"
 cask "1password"
-cask "alfred"
 cask "alt-tab"
 cask "bartender"
 cask "chromedriver"
@@ -75,7 +72,6 @@ cask "cleanshot"
 cask "dash"
 cask "deepl"
 cask "docker"
-cask "dropbox"
 cask "font-fira-code-nerd-font"
 cask "font-hack-nerd-font"
 cask "google-chrome"
@@ -84,7 +80,6 @@ cask "iterm2"
 cask "karabiner-elements"
 cask "kindle"
 cask "krisp"
-cask "notion"
 cask "obsidian"
 cask "postman"
 cask "raycast"
@@ -101,6 +96,4 @@ mas "Magnet", id: 441258766
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Reeder", id: 1529448980
-mas "Streaks", id: 963034692
-mas "TypingLand", id: 1568264476
 mas "Xcode", id: 497799835
