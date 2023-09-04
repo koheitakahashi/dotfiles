@@ -35,10 +35,10 @@ SETUVAR _fish_abbr_gpsoh:git\x20push\x20origin\x20HEAD
 SETUVAR _fish_abbr_gst:git\x20stash
 SETUVAR _fish_abbr_gsw:git\x20switch
 SETUVAR _fish_abbr_gswc:git\x20switch\x20\x2dc
+SETUVAR _fish_abbr_l:exa\x20\x2dF
 SETUVAR _fish_abbr_less:less\x20\x2dR
 SETUVAR _fish_abbr_lg:lazygit
-SETUVAR _fish_abbr_ll:exa\x20\x2d\x2dgit\x20\x2d\x2dlong
-SETUVAR _fish_abbr_ls:exa\x20\x2d\x2dgit
+SETUVAR _fish_abbr_ll:exa\x20\x2dl
 SETUVAR _fish_abbr_opl:open\x20http\x3a//localhost\x3a3000
 SETUVAR _fish_abbr_ps:procs
 SETUVAR _fish_abbr_r:bin/rails

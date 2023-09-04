@@ -213,7 +213,7 @@
                             },
                             "to": [
                                 {
-                                    "key_code": "japanese_eisuu"
+                                    "key_code": "lang1"
                                 }
                             ]
                         },
