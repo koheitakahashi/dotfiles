@@ -95,7 +95,6 @@ cask "slack"
 cask "tableplus"
 cask "visual-studio-code"
 cask "zoom"
-mas "Flow", id: 1423210932
 mas "GoodNotes", id: 1444383602
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
