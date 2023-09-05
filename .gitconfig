@@ -3,6 +3,7 @@
 [user]
   name = koheitakahashi
   email = 426koohei@gmail.com
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBRlLo3tNz6nJhZunAnORJwLmWJNhf6KDiQQ0VY5fDtu
 [core]
   editor = vim
   excludesfile = /Users/koheitakahashi/.gitignore_global
@@ -25,3 +26,9 @@
 [diff]
   colorMoved = default
 
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true
