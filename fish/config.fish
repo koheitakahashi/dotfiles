@@ -14,6 +14,7 @@ set -gx STARSHIP_CONFIG ~/.starship/.config/starship.toml
 # abbr
 # --------
 abbr -a -- c code
+abbr -a -- m mine
 abbr -a -- cm 'code ./tmp/memo.md'
 abbr -a -- bu bundle
 abbr -a -- be 'bundle exec'
