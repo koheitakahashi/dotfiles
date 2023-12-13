@@ -13,17 +13,19 @@ set -gx STARSHIP_CONFIG ~/.starship/.config/starship.toml
 # --------
 # abbr
 # --------
-abbr -a -- c code
+abbr -a -- c cursor
 abbr -a -- m mine
 abbr -a -- cm 'code ./tmp/memo.md'
 abbr -a -- bu bundle
 abbr -a -- be 'bundle exec'
-abbr -a -- dkc 'docker compose'
 abbr -a -- dk docker
+abbr -a -- dkc 'docker compose'
+abbr -a -- dkce 'docker compose exec'
+abbr -a -- dkcu 'docker compose exec'
 abbr -a -- g git
 abbr -a -- gpro 'git branch --show-current | gh pr view --web'
 abbr -a -- gpl 'git pull'
-abbr -a -- ghv 'gh repo view -w' 
+abbr -a -- ghv 'gh repo view -w'
 abbr -a -- gst 'git stash'
 abbr -a -- glo 'git log --oneline'
 abbr -a -- gsw 'git switch'
@@ -42,7 +44,6 @@ abbr -a -- el 'exa -al'
 abbr -a -- b bat
 abbr -a -- r bin/rails
 abbr -a -- v vim
-abbr -a -- ws bin/webpack-dev-server
 
 # --------
 # function
@@ -69,4 +70,3 @@ source /opt/homebrew/opt/asdf/libexec/asdf.fish
 
 # iTerm2 の shell integratin
 source ~/.iterm2_shell_integration.fish
-
